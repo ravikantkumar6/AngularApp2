@@ -1,1 +1,3 @@
-<h2>Server Component</h2>
+<input type="text" class="form-control" (change) ="onChangeInput($event)" [value] = "serverName"/>
+<button class="btn btn-primary" [disabled]="!allowNewServer"
+(click)="onCreateServer($event)">Add Server</button>

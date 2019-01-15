@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularApp2';
+  title = 'User Management System';
+  heading = 'This is dynamic Heading';
+  times = new Date();
+  constructor() {
+    setInterval(() => {
+      this.times = new Date();
+    }, 1);
+}
 }

@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation of BootStrap in angular
 `npm install --save bootstrap@3`
+And add following in angular.json file
+"styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css","src/styles.css"]
 ### Add the component
 `ng generate component servers or ng g c servers`
 ## Development server
