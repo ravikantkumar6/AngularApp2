@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 export class TransfereService {
     static serves: string[] = [];
     constructor() { }
-    
+
     // getServer() {
     //     console.log("data Transfer ");
     //     console.log(TransfereService.serves.pop());
@@ -14,7 +14,6 @@ export class TransfereService {
 
     addServer(serverName: string) {
         TransfereService.serves.push(serverName);
-        console.log(TransfereService.serves);
         return TransfereService.serves;
     }
 }
